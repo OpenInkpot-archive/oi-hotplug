@@ -1,0 +1,5 @@
+50automount etc/mdev.conf.d
+mdev etc/default
+oi-hotplug.sh sbin
+automount lib/mdev
+01power-supply lib/mdev/handlers.d

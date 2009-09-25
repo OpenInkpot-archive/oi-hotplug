@@ -1,0 +1,16 @@
+Source: oi-hotplug
+Section: core
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>= 7)
+XCS-Cross-Host-Build-Depends: debhelper (>= 7)
+XCS-Cross-Build-Depends:
+Priority: optional
+Standards-Version: 3.8.3
+
+Package: oi-hotplug
+Priority: optional
+Architecture: all
+Depends: mdev (>= 1:1.15.1-1)
+Description: OpenInkpot hotplugging infrastructure
+ This package contains scripts which control hotplugging for
+ OpenInkpot.

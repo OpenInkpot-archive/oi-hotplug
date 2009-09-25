@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ $1 = power_supply ]; then
+    if [ x"$ACTION" = x"change" -a x"$POWER_SUPPLY_NAME" = x"usb" ]; then
+        if [ $POWER_SUPPLY_ONLINE -eq 1 ]; then
+            echo 0 > /sys/power/autosuspend
+        else
+            echo 1 > /sys/power/autosuspend
+        fi
+    fi
+fi
+
