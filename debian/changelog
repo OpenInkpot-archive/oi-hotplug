@@ -1,3 +1,10 @@
+oi-hotplug (0.2) asimov; urgency=low
+
+  * Switch to "upstream" versioning
+  * Add handler to deliver SIGUSR1/2 signals on usb plug/unplug
+
+ -- Alexander V. Nikolaev <avn@daemon.hole.ru>  Tue, 26 Jan 2010 18:49:58 +0200
+
 oi-hotplug (0.1-1) asimov; urgency=low
 
   * Initial release.
