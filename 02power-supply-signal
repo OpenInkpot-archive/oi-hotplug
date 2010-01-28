@@ -1,0 +1,19 @@
+#!/bin/sh
+
+APPS="gm madaudio madshelf madaudio-unsuspend"
+
+deliver_signal() {
+    for each in ${APPS}; do
+        killall $1 $each
+    done
+}
+
+if [ x"$ACTION" = x"change" -a x"$POWER_SUPPLY_TYPE" = x"USB" ]
+then
+	if [ $POWER_SUPPLY_ONLINE -eq 1 ]
+	then
+		deliver_signal -usr1
+	else
+		deliver_signal -usr2
+	fi
+fi

@@ -3,3 +3,5 @@ mdev etc/default
 oi-hotplug.sh sbin
 automount lib/mdev
 01power-supply lib/mdev/handlers.d
+02power-supply-signal lib/mdev/handlers.d
+
