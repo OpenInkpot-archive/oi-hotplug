@@ -1,4 +1,4 @@
-oi-hotplug (0.2) asimov; urgency=low
+oi-hotplug (0.2) zelazny; urgency=low
 
   * Switch to "upstream" versioning
   * Add handler to deliver SIGUSR1/2 signals on usb plug/unplug
