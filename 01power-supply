@@ -3,9 +3,9 @@
 if [ $1 = power_supply ]; then
     if [ x"$ACTION" = x"change" -a x"$POWER_SUPPLY_NAME" = x"usb" ]; then
         if [ $POWER_SUPPLY_ONLINE -eq 1 ]; then
-            echo 0 > /sys/power/autosuspend
+            autosuspend prevent
         else
-            echo 1 > /sys/power/autosuspend
+            autosuspend okay
         fi
     fi
 fi

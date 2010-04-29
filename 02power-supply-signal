@@ -1,6 +1,6 @@
 #!/bin/sh
 
-APPS="gm madaudio madshelf madaudio-unsuspend"
+APPS="gm madaudio madshelf" 
 
 deliver_signal() {
     for each in ${APPS}; do
