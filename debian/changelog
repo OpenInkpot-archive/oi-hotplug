@@ -1,3 +1,9 @@
+oi-hotplug (0.3.1) zelazny; urgency=low
+
+  * Use new unsuspend interface
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Fri, 18 Jun 2010 01:16:56 +0700
+
 oi-hotplug (0.3) zelazny; urgency=low
 
   * Use unsuspend daemon instead madaudio-unsuspend
