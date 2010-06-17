@@ -10,7 +10,7 @@ Standards-Version: 3.8.3
 Package: oi-hotplug
 Priority: optional
 Architecture: all
-Depends: mdev (>= 1:1.15.1-1), unsuspendd
+Depends: mdev (>= 1:1.15.1-1), unsuspendd (>= 0.2)
 Conflicts: madaudio (<= 0.4.11) 
 Description: OpenInkpot hotplugging infrastructure
  This package contains scripts which control hotplugging for
