@@ -1,3 +1,10 @@
+oi-hotplug (0.4) bradbury; urgency=low
+
+  * Build for Bradbury
+  * Bump version to match Conflicts in unsuspendd.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Sat, 19 Jun 2010 00:13:49 +0700
+
 oi-hotplug (0.3.1) zelazny; urgency=low
 
   * Use new unsuspend interface
