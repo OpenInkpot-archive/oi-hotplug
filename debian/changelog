@@ -1,3 +1,9 @@
+oi-hotplug (0.4) zelazny; urgency=low
+
+  * Bump version to match Conflicts clause in unsuspendd.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Sat, 19 Jun 2010 00:14:30 +0700
+
 oi-hotplug (0.3.1) zelazny; urgency=low
 
   * Use new unsuspend interface
