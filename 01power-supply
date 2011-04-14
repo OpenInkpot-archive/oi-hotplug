@@ -1,7 +1,8 @@
 #!/bin/sh
 
 if [ $1 = power_supply ]; then
-    if [ x"$ACTION" = x"change" -a x"$POWER_SUPPLY_NAME" = x"usb" ]; then
+    type=`cat /sys$DEVPATH`
+    if [ x"$ACTION" = x"change" -a x"$type" = x"USB" ]; then
         if [ $POWER_SUPPLY_ONLINE -eq 1 ]; then
             autosuspend lock usb-connected
         else
