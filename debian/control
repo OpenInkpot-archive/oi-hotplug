@@ -1,6 +1,7 @@
 Source: oi-hotplug
 Section: core
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Uploaders: Alexander Kerner <lunohod@openinkpot.org>
 Build-Depends: debhelper (>= 7)
 XCS-Cross-Host-Build-Depends: debhelper (>= 7)
 XCS-Cross-Build-Depends:
