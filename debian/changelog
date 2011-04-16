@@ -1,3 +1,9 @@
+oi-hotplug (0.5.1) zelazny; urgency=low
+
+  * Fix the name of file with power supply type property
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Sat, 16 Apr 2011 09:11:01 +0200
+
 oi-hotplug (0.5) zelazny; urgency=low
 
   [ Mikhail Gusarov ]
