@@ -1,3 +1,9 @@
+oi-hotplug (0.5.2) zelazny; urgency=low
+
+  * Fix unmounting the sd card
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Mon, 02 May 2011 00:23:31 +0200
+
 oi-hotplug (0.5.1) zelazny; urgency=low
 
   * Fix the name of file with power supply type property
