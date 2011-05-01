@@ -26,7 +26,10 @@ if [ -z $ACTION ] || [ $ACTION = "add" ] ; then
 fi
 
 if [ $ACTION = "remove" ] ; then
-    umount -fl /dev/$MDEV
+    for i in $(grep /dev/$MDEV /proc/mounts | awk '{print $2}')
+    do
+        umount -fl $i
+    done
     killall -HUP madshelf
     exit 0
 fi
